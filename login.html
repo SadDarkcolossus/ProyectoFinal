@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html"); 
+        });
+    </script>
+</head>
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9b5b9b93f4.js" crossorigin="anonymous"></script>
+    <title>login</title>
+   
+</head>
+<body>
+
+    <div id="header"></div>
+
+    
+    <main>
+        <div class="login">
+            <h1>Iniciar sesión</h1>
+            <form action="#" method="POST">
+                <div class="campo">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu usuario" required>
+                </div>
+                <div class="campo">
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="Ingresa tu contraseña" required>
+                </div>
+                <div class="boton">
+                    <input type="submit" value="Ingresar">
+                </div>
+                <div class="enlace">
+                    <a href="register.html">¿No tienes una cuenta? Regístrate aquí</a>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
+

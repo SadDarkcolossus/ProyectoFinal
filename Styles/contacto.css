@@ -1,0 +1,29 @@
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 300px;
+}
+.logo {
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    transition: transform 1s, color 0.3s;
+}
+.logo:hover {
+    transform: rotate(360deg);
+    color: rgb(0, 0, 0);
+}
+.fa {
+    font-size: 5em;
+}
+
+h1 {
+ 
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
